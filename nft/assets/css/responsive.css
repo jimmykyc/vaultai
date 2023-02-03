@@ -1,0 +1,2234 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+.footer-down-pp p {
+    font-size: 12px;
+    padding-top: 28px;
+    margin-right: 20px;
+}
+
+.hero-right img {
+    width: 136%;
+    display: block;
+    margin: auto;
+    margin-left: -123px;
+}
+
+.hero-left h2 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    padding-top: 36px;
+}
+
+.emfut-part p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.mkpenmber-right p {
+    font-size: 11px;
+    margin: 0;
+    padding-top: 9px;
+}
+
+.mkpenmber-right h2 {
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.mkpenmber-left h2 {
+    font-size: 35px;
+    margin: 0;
+    font-weight: 500;
+    line-height: 42px;
+    padding-top: 10px;
+}
+
+.search-right ul li {
+    float: left;
+    margin-left: 8px;
+}
+
+.search-right ul li:first-child {
+	margin-left: 0;
+}
+
+.search-right ul li a {
+    color: #181925;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    transition: 0.2s all ease;
+}
+
+.footer-down-left ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footertop-part5,
+.footertop-part4,
+.footertop-part3,
+.footertop-part2,
+.footertop-part1 {
+    padding-left: 0px;
+}
+
+.tpplaceabid-inner input[type="text"] {
+    width: 68%;
+}
+
+.tpplaceabid-inner button {
+    width: 30%;
+}
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.tpheader-left p {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.provenance-left {
+    width: 12%;
+}
+
+.provenance-right p {
+    font-size: 16px;
+}
+
+.search-part {
+    position: relative;
+    margin-right: 0px;
+}
+
+.tpheader-left p span {
+    padding-left: 2px;
+}
+
+.search-right ul li a {
+    font-size: 14px;
+}
+
+.header-right ul li a img {
+    height: 29px;
+}
+
+
+.header-inner ul li a {
+    font-size: 14px;
+    display: block;
+}
+
+.header-inner ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.header-left img {
+    max-width: 67%;
+    display: block;
+}
+
+.header-inner ul {
+    padding-top: 1px;
+}
+
+.hero-right img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.hero-left h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.hero-left p {
+    font-size: 12px;
+    line-height: 21px;
+    margin: 0;
+    padding-bottom: 23px;
+    padding-top: 3px;
+}
+
+.hero-btn a {
+    font-size: 16px;
+    width: 160px;
+    height: 48px;
+    display: block;
+    line-height: 48px;
+}
+
+.hero-area {
+    padding: 0px 0;
+    padding-top: 52px;
+}
+
+.tpemfut p {
+    font-size: 16px;
+    padding-bottom: 0px;
+}
+
+.tpemfut h2 {
+    font-size: 40px;
+    padding-bottom: 55px;
+    font-weight: 500;
+}
+
+.emfut-part p {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.emfut-part h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+.emfut-area {
+    padding: 50px 0;
+    padding-bottom: 63px;
+}
+
+
+.mkpenmber-left h2 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+    line-height: 44px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+
+.mkpenmber-right h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.mkpenmber-area {
+    padding: 58px 0;
+    padding-bottom: 74px;
+}
+
+.cidni-left p {
+    font-size: 12px;
+    margin: 0;
+    line-height: 22.4px;
+    padding-bottom: 14px;
+}
+
+.cidni-left h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 47px;
+    padding-top: 22px;
+    padding-bottom: 11px;
+}
+
+.cidni-btn {
+    padding-top: 11px;
+}
+
+.cidni-btn a {
+    font-size: 16px;
+    font-weight: 700;
+    width: 172px;
+    height: 48px;
+    line-height: 48px;
+}
+
+.cidni-right img {
+    max-width: 83%;
+    display: block;
+    margin: auto;
+    margin-right: 0;
+}
+
+.pyexptde-part h2 {
+    font-size: 40px;
+    padding-bottom: 16px;
+}
+
+.pyexptde-part p {
+    font-size: 19px;
+    line-height: 28px;
+    padding-bottom: 25px;
+}
+
+.pyexptde-btn a {
+    font-size: 16px;
+    font-weight: 600;
+    width: 172px;
+    height: 48px;
+    display: block;
+    line-height: 48px;
+}
+
+.pyexptde-area {
+    padding: 60px 0;
+    padding-bottom: 70px;
+}
+
+.footer-down-pp p {
+    font-size: 15px;
+    padding-top: 12px;
+    position: relative;
+    margin-right: 0px;
+}
+
+.footer-down-left ul li a {
+    font-size: 16px;
+    width: 38px;
+    height: 38px;
+    display: block;
+    line-height: 42px;
+}
+
+.footer-down-left ul li {
+    margin-right: 6px;
+}
+
+.footer-inner {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.footertop-part1 {
+    padding-left: 0px;
+}
+
+.footertop-part2 {
+    padding-left: 0px;
+}
+
+.footertop-part3 {
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+
+.footertop-part4 {
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+.footertop-part5 {
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+.footer-area {
+    padding-top: 73px;
+    padding-bottom: 19px;
+}
+
+.search-part input[type="text"] {
+    width: 262px;
+}
+
+.hder-left1 img {
+    margin-left: 0px;
+}
+
+.hder-left2 ul {
+    position: relative;
+    left: -19px;
+}
+
+.hder-left2 ul li:nth-child(1) a {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 20px;
+    border-radius: 30px;
+    margin-right: 3px;
+}
+
+.dncurrentbid-top-left ul li a {
+    font-size: 16px;
+    padding: 8px 9px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.dncurrentbid-text h2 {
+    font-size: 17px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.dncurrentbid-text p {
+    font-size: 14px;
+    margin: 0;
+    padding-top: 3px;
+}
+
+.dncurrentbid-text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 0px;
+}
+
+.dncurrentbid-text h3 span {
+    width: 6.64px;
+    height: 6.64px;
+    padding: 2px;
+    border: 6px solid #585858;
+    position: relative;
+    top: 4px;
+    margin-right: 2px;
+}
+
+.dncurrentbid-img img {
+    height: 204px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.newcurrentbid-inner h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    position: absolute;
+    top: 169px;
+    left: 21px;
+}
+
+.currentbid-area {
+    padding: 20px 0;
+    padding-bottom: 48px;
+}
+
+.hder-area {
+    padding: 21px 0;
+}
+
+
+.ttdncurrentbid-part {
+    width: 291px;
+    display: block;
+    margin: auto;
+    margin-right: 0;
+    border-radius: 10px;
+}
+
+.ttdncurrentbid-text h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ttdncurrentbid-text h3 {
+    font-size: 16px;
+    padding-top: 1px;
+}
+
+.tttextsright h5 {
+    font-size: 16px;
+}
+
+.tttextsleft {
+    width: 60%;
+}
+
+.tttextsright {
+    width: 40%;
+}
+
+.placeabid-left {
+    border-radius: 30px;
+    padding: 40px 30px;
+}
+
+.tpplaceabid-inner button {
+    width: 30%;
+}
+
+.tpplaceabid-inner input[type="text"] {
+    width: 68%;
+}
+
+.placeabid-area {
+    padding: 60px 0;
+    padding-top: 39px;
+}
+
+.hdhero-area {
+    padding: 36px 0;
+    padding-bottom: 63px;
+}
+
+.dnhdhero-area {
+    padding: 56px 0;
+}
+
+.tags-part ul li a {
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 3px 14px;
+}
+
+.share-part ul li:nth-child(2) a p {
+    font-size: 17px;
+    line-height: 14px;
+    margin-bottom: 0;
+    margin-top: -25px;
+    padding-left: 34px;
+}
+
+.mftc-left2 h3 {
+    font-size: 19px;
+    padding-top: 8px;
+}
+
+.topmftc-part h2 {
+    font-size: 28px;
+}
+
+.topmftc-area {
+    padding: 9px 0;
+    padding-bottom: 18px;
+}
+
+.newlast-right ul li {
+    float: left;
+    margin-left: 10px;
+}
+
+.newlast-left img {
+    height: 55px;
+    display: block;
+}
+
+.newlast-inner ul li {
+    margin-right: 10px;
+}
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+.mobileheader-area {
+	display: block;
+}
+
+.header-area {
+    padding: 0px 0;
+    display: none;
+}
+
+.navbar-brand img {
+    max-width: 67%;
+}
+
+.tpheader-area {
+    display: none;
+}
+
+.footer-inner form {
+    width: 100%;
+    border-radius: 12px;
+    padding: 5px 4px;
+}
+
+.footer-inner form input[type="submit"] {
+    width: 34%;
+}
+
+.footer-inner form input[type="email"] {
+    width: 64%;
+}
+
+.footer-inner h3 {
+    font-size: 25px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.footer-inner h6 {
+    font-size: 14px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.footer-inner p {
+    font-size: 13px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.footer-down-left ul {
+    text-align: center;
+}
+
+.footer-down-left ul li {
+    display: inline-block;
+    margin-right: initial;
+    margin: 0 5px;
+}
+
+.footer-down-left ul li a {
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    line-height: 34px;
+}
+
+.footer-down-left ul li {
+    display: inline-block;
+    margin-right: initial;
+    margin: 0 4px;
+}
+
+.item1 {
+    display: none;
+}
+
+.item2 {
+    display: block;
+}
+
+.hero-left h2 {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top: 17px;
+    text-align: center;
+}
+
+.hero-btn a {
+    font-size: 16px;
+    width: 160px;
+    height: 48px;
+    line-height: 48px;
+}
+
+.hero-right img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-top: 32px;
+}
+
+.hero-left p {
+    font-size: 14px;
+    padding-bottom: 21px;
+    padding-top: 3px;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 26px;
+}
+
+.tpemfut p {
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+
+.tpemfut h2 {
+    font-size: 29px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 49px;
+    font-weight: 500;
+}
+
+.emfut-part p {
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 45px;
+}
+
+.emfut-area {
+    padding: 50px 0;
+    padding-bottom: 0px;
+}
+
+.mkpenmber-left h2 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 500;
+    line-height: 37px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.mkpenmber-right h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.mkpenmber-right p {
+    text-align: center;
+}
+
+.mkpenmber-area {
+    padding: 40px 0;
+    padding-bottom: 38px;
+}
+
+.hero-btn {
+	text-align: center;
+}
+
+.hero-btn a {
+    margin: auto;
+}
+
+.mobileheader-inner ul {
+    padding-top: 20px;
+}
+
+.cidni-left h6 {
+    margin: auto;
+}
+
+
+.cidni-left h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 49px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+.cidni-left p {
+    font-size: 15px;
+    margin: 0;
+    line-height: 28px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.cidni-btn a {
+    font-size: 16px;
+    width: 172px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.cidni-btn {
+    padding-top: 9px;
+    padding-bottom: 50px;
+}
+
+.cidni-right img {
+    max-width: 75%;
+    display: block;
+    margin: auto;
+    margin-right: auto;
+}
+
+.cidni-area {
+    padding: 40px 0;
+}
+
+.pyexptde-part h2 {
+    font-size: 29px;
+    padding-bottom: 19px;
+}
+
+.pyexptde-part p {
+    font-size: 15px;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+.pyexptde-btn a {
+    font-size: 16px;
+    font-weight: 600;
+    width: 172px;
+    height: 48px;
+    display: block;
+    line-height: 48px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.pyexptde-area {
+    padding: 35px 0;
+    padding-bottom: 40px;
+}
+
+.footer-area {
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.footertop-left img {
+    max-width: 100%;
+    display: block;
+    margin-left: -38px;
+    margin-top: -51px;
+}
+
+.footertop-part1 {
+    padding-left: 0px;
+}
+
+.footertop-part2 {
+    padding-left: 0px;
+}
+
+.footertop-part3 {
+    padding-left: 0px;
+}
+
+.footertop-part4 {
+    padding-left: 0px;
+}
+
+.footertop-part5 {
+    padding-left: 0px;
+}
+
+.footertop-part h3 {
+    font-size: 22px;
+    margin: 0;
+    font-weight: 700;
+    padding-bottom: 9px;
+    padding-top: 20px;
+}
+
+.footertop-left ul li {
+    display: block;
+    padding-bottom: 3px;
+}
+
+.footer-down {
+    padding-top: 0px;
+}
+
+.footer-down-pp p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    padding-top: 6px;
+    position: relative;
+    margin-right: 0px;
+}
+
+.footer-down-logo img {
+    display: block;
+    width: 189px;
+    height: 75px;
+    margin: auto;
+    position: relative;
+    left: 0;
+    z-index: 999999;
+    margin-top: 33px;
+}
+
+.footer-inner form input[type="submit"] {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 9px 5px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+
+.footer-inner {
+    padding-top: 27px;
+    padding-bottom: 18px;
+}
+
+.dncurrentbid-part {
+    margin-bottom: 25px;
+}
+
+.currentbid-area {
+    padding: 15px 0;
+    padding-bottom: 0px;
+}
+
+
+.currentbids-part {
+    padding-bottom: 0px;
+}
+
+.currentbid-top ul li {
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 2px;
+}
+
+.currentbid-top {
+    padding-bottom: 9px;
+}
+
+.dncurrentbid-top {
+    padding: 20px 0;
+}
+
+.dncurrentbid-top-left ul li a {
+    color: #181925;
+    font-size: 13px;
+    padding: 8px 8px;
+    border-radius: 20px;
+    transition: 0.2s all ease;
+    display: block;
+    margin-bottom: 9px;
+}
+
+
+.dncurrentbidtp-btn a {
+    font-size: 13px;
+}
+
+.dncurrentbidtp-btn {
+    text-align: left;
+}
+
+.active-part {
+    position: absolute;
+    right: initial;
+    top: 44px;
+    z-index: 99999;
+    display: none;
+    left: 0;
+}
+
+.hder-area {
+    display: none;
+}
+
+
+
+.hder-left1 img {
+    max-width: 84%;
+    display: block;
+    height: initial;
+    margin-left: 0px;
+}
+
+
+.hder-left2 ul {
+    left: 11px;
+}
+
+
+.hder-left2 ul li:nth-child(1) a {
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    padding: 6px 14px;
+    border-radius: 30px;
+    margin-right: 0px;
+}
+
+.hder-left2 ul li:nth-child(2) a {
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    padding: 6px 0px;
+    border-radius: 30px;
+}
+
+.hder-right a {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: block;
+    border-radius: 6px;
+    margin: auto;
+    margin-right: 0;
+}
+
+
+.hder-left2 ul li:nth-child(2) a i {
+    font-size: 9px;
+    padding-left: 0px;
+}
+
+.hder-inner {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.mobilesearch-area {
+    padding: 0 10px;
+    padding-top: 10px;
+}
+
+.hder-left3 {
+    position: relative;
+    left: 65px;
+}
+
+.hder-left3 ul li a {
+    font-size: 13px;
+    padding: 5px 8px;
+}
+
+.hder-left3 ul {
+    text-align: left;
+    width: 101px;
+    z-index: 99999;
+    display: none;
+}
+
+.newmobile-area {
+	display: block;
+}
+
+.mobilesearch-area {
+    display: block;
+}
+
+.ttdncurrentbid-part {
+    width: 287px;
+    margin-right: auto;
+}
+
+.ttdncurrentbid-text h2 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.ttdncurrentbid-text h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 2px;
+}
+
+.tttextsleft {
+    width: 50%;
+}
+
+.tttextsright {
+    width: 50%;
+}
+
+
+.placeabid-left {
+    border-radius: 25px;
+    padding: 20px 17px;
+    margin-bottom: 20px;
+}
+
+
+.placeabid-left h2 {
+    font-size: 24px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.placeabid-left p {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.tpplaceabid-inner input[type="text"] {
+	font-size: 18px;
+}
+
+
+.tpplaceabid-inner input[type="text"]::placeholder {
+	font-size: 18px;
+}
+
+.tpplaceabid-inner input[type="text"] {
+    padding: 9px 18px;
+    border-radius: 15px;
+    width: 65%;
+    outline: none;
+}
+
+.tpplaceabid-inner button {
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background: none;
+    width: 33%;
+    outline: none;
+}
+
+.tpplaceabid-inner button img {
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    height: 24px;
+}
+
+.placeabid-inner h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.placeabid-inner1 {
+    border-radius: 19px;
+    padding: 5px 14px;
+    margin-top: 10px;
+}
+
+.placeabid-inner1 ul li {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.placeabid-inner2 a {
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.placeabid-area {
+    padding: 30px 0;
+    padding-top: 23px;
+}
+
+.ttnewmobile-area {
+   display: block;   
+}
+
+.hdhero-area {
+    padding: 27px 0;
+    padding-bottom: 28px;
+}
+
+.dnhdhero-area {
+    padding: 34px 0;
+}
+
+.dnhdhero-left h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.cdby-part h3 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.clion-part {
+    position: relative;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+.cdby-part {
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+
+.dnhdhero-left h5 {
+    font-size: 16px;
+    padding-bottom: 11px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.dnhdhero-rightc a {
+    font-size: 13px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-right: 0;
+    margin-top: -29px;
+}
+
+.dnhdhero-rightc p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.dnhdhero-rightb a {
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    display: block;
+    padding: 8px 5px;
+}
+
+.dnhdhero-rightb h3 {
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 11px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.dnhdhero-rightb p {
+    text-align: center;
+}
+
+
+.tags-part ul li a {
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 3px 9px;
+    display: block;
+}
+
+.share-part ul li:nth-child(2) a p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -25px;
+    padding-left: 35px;
+}
+
+.dscionpece-area {
+    padding-top: 0;
+}
+
+.description-part h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.details-part h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.details-part {
+    padding-top: 18px;
+    padding-bottom: 9px;
+}
+
+.share-part {
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+.dscionpece-right h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.provenance-right p {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+    text-align: right;
+}
+
+.provenance-right p i {
+    font-size: 11px;
+    padding-left: 4px;
+    position: relative;
+    top: -1px;
+}
+
+.provenance-left {
+    width: 13%;
+}
+
+.provenance-left img {
+	max-width: 100%;
+	display: block;
+}
+
+
+.provenance-inner h3 {
+    font-size: 13px;
+}
+
+.provenance-inner p {
+    font-size: 12px;
+    margin: 0;
+    padding-top: 1px;
+}
+
+.provenance-part {
+    border-radius: 10px;
+    padding: 10px 9px;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.topmftc-part h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.topmftc-area {
+    padding: 0px 0;
+    padding-bottom: 10px;
+}
+
+.mftc-left {
+	text-align: center;
+}
+
+.mftc-left1 {
+    margin: auto;
+}
+
+.mftc-left2 h6 {
+    border-radius: 22px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.mftc-left2 a {
+    margin: auto;
+    margin-bottom: 27px;
+}
+
+.ssdncurrentbid-part {
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.newlast-left img {
+    height: 57px;
+    display: block;
+    margin: auto;
+    margin-bottom: 14px;
+}
+
+.newlast-inner ul {
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.newlast-right ul {
+    float: inherit;
+    text-align: center;
+}
+
+.newlast-right ul li {
+    float: initial;
+    display: inline-block;
+    margin: 0 7px;
+}
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+.mobileheader-area {
+	display: block;
+}
+
+.header-area {
+    padding: 0px 0;
+    /* display: none; */
+}
+
+.navbar-brand img {
+    max-width: 67%;
+}
+
+
+.tpheader-area {
+    display: none;
+}
+
+.footer-inner form {
+    width: 100%;
+    border-radius: 12px;
+    padding: 5px 4px;
+}
+
+
+.footer-inner form input[type="submit"] {
+    width: 34%;
+}
+
+.footer-inner form input[type="email"] {
+    width: 64%;
+}
+
+.footer-inner h3 {
+    font-size: 25px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.footer-inner h6 {
+    font-size: 14px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.footer-inner p {
+    font-size: 13px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.footer-down-left ul {
+    text-align: center;
+}
+
+.footer-down-left ul li {
+    display: inline-block;
+    margin-right: initial;
+    margin: 0 5px;
+}
+
+
+.footer-down-left ul li a {
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    line-height: 34px;
+}
+
+.footer-down-left ul li {
+    display: inline-block;
+    margin-right: initial;
+    margin: 0 4px;
+}
+
+.item1 {
+    display: none;
+}
+
+.item2 {
+    display: block;
+}
+
+.hero-left h2 {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top: 17px;
+    text-align: center;
+}
+
+.hero-btn a {
+    font-size: 16px;
+    width: 160px;
+    height: 48px;
+    line-height: 48px;
+}
+
+.hero-right img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-top: 32px;
+}
+
+.hero-left p {
+    font-size: 14px;
+    padding-bottom: 21px;
+    padding-top: 3px;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 26px;
+}
+
+.tpemfut p {
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+
+.tpemfut h2 {
+    font-size: 29px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 49px;
+    font-weight: 500;
+}
+
+.emfut-part p {
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 45px;
+}
+
+.emfut-area {
+    padding: 50px 0;
+    padding-bottom: 0px;
+}
+
+.mkpenmber-left h2 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 500;
+    line-height: 37px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.mkpenmber-right h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.mkpenmber-right p {
+    text-align: center;
+}
+
+.mkpenmber-area {
+    padding: 40px 0;
+    padding-bottom: 38px;
+}
+
+.hero-btn {
+	text-align: center;
+}
+
+.hero-btn a {
+    margin: auto;
+}
+
+.mobileheader-inner ul {
+    padding-top: 20px;
+}
+
+.cidni-left h6 {
+    margin: auto;
+}
+
+
+.cidni-left h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 49px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+.cidni-left p {
+    font-size: 15px;
+    margin: 0;
+    line-height: 28px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.cidni-btn a {
+    font-size: 16px;
+    width: 172px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.cidni-btn {
+    padding-top: 9px;
+    padding-bottom: 50px;
+}
+
+.cidni-right img {
+    max-width: 75%;
+    display: block;
+    margin: auto;
+    margin-right: auto;
+}
+
+.cidni-area {
+    padding: 40px 0;
+}
+
+
+.pyexptde-part h2 {
+    font-size: 29px;
+    padding-bottom: 19px;
+}
+
+
+.pyexptde-part p {
+    font-size: 15px;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+
+
+.pyexptde-btn a {
+    font-size: 16px;
+    font-weight: 600;
+    width: 172px;
+    height: 48px;
+    display: block;
+    line-height: 48px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.pyexptde-area {
+    padding: 35px 0;
+    padding-bottom: 40px;
+}
+
+.footer-area {
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.footertop-left img {
+    max-width: 100%;
+    display: block;
+    margin-left: -38px;
+    margin-top: -51px;
+}
+
+.footertop-part1 {
+    padding-left: 0px;
+}
+
+.footertop-part2 {
+    padding-left: 0px;
+}
+
+.footertop-part3 {
+    padding-left: 0px;
+}
+
+.footertop-part4 {
+    padding-left: 0px;
+}
+
+.footertop-part5 {
+    padding-left: 0px;
+}
+
+.footertop-part h3 {
+    font-size: 22px;
+    margin: 0;
+    font-weight: 700;
+    padding-bottom: 9px;
+    padding-top: 20px;
+}
+
+.footertop-left ul li {
+    display: block;
+    padding-bottom: 3px;
+}
+
+.footer-down {
+    padding-top: 0px;
+}
+
+.footer-down-pp p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    padding-top: 6px;
+    position: relative;
+    margin-right: 0px;
+}
+
+.footer-down-logo img {
+    display: block;
+    width: 189px;
+    height: 75px;
+    margin: auto;
+    position: relative;
+    left: 0;
+    z-index: 999999;
+    margin-top: 33px;
+}
+
+.footer-inner form input[type="submit"] {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 9px 5px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+
+
+.footer-inner {
+    padding-top: 27px;
+    padding-bottom: 18px;
+}
+
+.dncurrentbid-part {
+    margin-bottom: 25px;
+}
+
+.currentbid-area {
+    padding: 15px 0;
+    padding-bottom: 0px;
+}
+
+
+.currentbids-part {
+    padding-bottom: 0px;
+}
+
+.currentbid-top ul li {
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 2px;
+}
+
+.currentbid-top {
+    padding-bottom: 9px;
+}
+
+.dncurrentbid-top {
+    padding: 20px 0;
+}
+
+.dncurrentbid-top-left ul li a {
+    color: #181925;
+    font-size: 13px;
+    padding: 8px 8px;
+    border-radius: 20px;
+    transition: 0.2s all ease;
+    display: block;
+    margin-bottom: 9px;
+}
+
+
+.dncurrentbidtp-btn a {
+    font-size: 13px;
+}
+
+.dncurrentbidtp-btn {
+    text-align: left;
+}
+
+.active-part {
+    position: absolute;
+    right: initial;
+    top: 44px;
+    z-index: 99999;
+    display: none;
+    left: 0;
+}
+
+.hder-area {
+    display: none;
+}
+
+
+
+.hder-left1 img {
+    max-width: 84%;
+    display: block;
+    height: initial;
+    margin-left: 0px;
+}
+
+
+.hder-left2 ul {
+    left: 11px;
+}
+
+
+.hder-left2 ul li:nth-child(1) a {
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    padding: 6px 14px;
+    border-radius: 30px;
+    margin-right: 0px;
+}
+
+.hder-left2 ul li:nth-child(2) a {
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    padding: 6px 0px;
+    border-radius: 30px;
+}
+
+.hder-right a {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: block;
+    border-radius: 6px;
+    margin: auto;
+    margin-right: 0;
+}
+
+
+.hder-left2 ul li:nth-child(2) a i {
+    font-size: 9px;
+    padding-left: 0px;
+}
+
+.hder-inner {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.mobilesearch-area {
+    padding: 0 10px;
+    padding-top: 10px;
+}
+
+.hder-left3 {
+    position: relative;
+    left: 65px;
+}
+
+.hder-left3 ul li a {
+    font-size: 13px;
+    padding: 5px 8px;
+}
+
+.hder-left3 ul {
+    text-align: left;
+    width: 101px;
+    z-index: 99999;
+    display: none;
+}
+
+.newmobile-area {
+	display: block;
+}
+
+.mobilesearch-area {
+    display: block;
+}
+
+
+
+.ttdncurrentbid-part {
+    width: 287px;
+    margin-right: auto;
+}
+
+.ttdncurrentbid-text h2 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.ttdncurrentbid-text h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 2px;
+}
+
+.tttextsleft {
+    width: 50%;
+}
+
+.tttextsright {
+    width: 50%;
+}
+
+
+.placeabid-left {
+    border-radius: 25px;
+    padding: 20px 17px;
+    margin-bottom: 20px;
+}
+
+
+.placeabid-left h2 {
+    font-size: 24px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.placeabid-left p {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.tpplaceabid-inner input[type="text"] {
+	font-size: 18px;
+}
+
+
+.tpplaceabid-inner input[type="text"]::placeholder {
+	font-size: 18px;
+}
+
+.tpplaceabid-inner input[type="text"] {
+    padding: 9px 18px;
+    border-radius: 15px;
+    width: 65%;
+    outline: none;
+}
+
+.tpplaceabid-inner button {
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background: none;
+    width: 33%;
+    outline: none;
+}
+
+.tpplaceabid-inner button img {
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    height: 24px;
+}
+
+.placeabid-inner h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.placeabid-inner1 {
+    border-radius: 19px;
+    padding: 5px 14px;
+    margin-top: 10px;
+}
+
+.placeabid-inner1 ul li {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.placeabid-inner2 a {
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.placeabid-area {
+    padding: 30px 0;
+    padding-top: 23px;
+}
+
+
+
+.ttnewmobile-area {
+   display: block;   
+}
+
+
+.hdhero-area {
+    padding: 27px 0;
+    padding-bottom: 28px;
+}
+
+.dnhdhero-area {
+    padding: 34px 0;
+}
+
+.dnhdhero-left h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.cdby-part h3 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.clion-part {
+    position: relative;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+.cdby-part {
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+
+.dnhdhero-left h5 {
+    font-size: 16px;
+    padding-bottom: 11px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+
+
+
+.dnhdhero-rightc a {
+    font-size: 13px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-right: 0;
+    margin-top: -29px;
+}
+
+.dnhdhero-rightc p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+}
+
+
+.dnhdhero-rightb a {
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    display: block;
+    padding: 8px 5px;
+}
+
+.dnhdhero-rightb h3 {
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 11px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.dnhdhero-rightb p {
+    text-align: center;
+}
+
+
+.tags-part ul li a {
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 3px 9px;
+    display: block;
+}
+
+.share-part ul li:nth-child(2) a p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -25px;
+    padding-left: 35px;
+}
+
+.dscionpece-area {
+    padding-top: 0;
+}
+
+.description-part h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.details-part h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.details-part {
+    padding-top: 18px;
+    padding-bottom: 9px;
+}
+
+.share-part {
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+.dscionpece-right h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.provenance-right p {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+    text-align: right;
+}
+
+.provenance-right p i {
+    font-size: 11px;
+    padding-left: 4px;
+    position: relative;
+    top: -1px;
+}
+
+.provenance-left {
+    width: 13%;
+}
+
+
+.provenance-left img {
+	max-width: 100%;
+	display: block;
+}
+
+
+.provenance-inner h3 {
+    font-size: 13px;
+}
+
+.provenance-inner p {
+    font-size: 12px;
+    margin: 0;
+    padding-top: 1px;
+}
+
+.provenance-part {
+    border-radius: 10px;
+    padding: 10px 9px;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.topmftc-part h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.topmftc-area {
+    padding: 0px 0;
+    padding-bottom: 10px;
+}
+
+.mftc-left {
+	text-align: center;
+}
+
+.mftc-left1 {
+    margin: auto;
+}
+
+.mftc-left2 h6 {
+    border-radius: 22px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.mftc-left2 a {
+    margin: auto;
+    margin-bottom: 27px;
+}
+
+.ssdncurrentbid-part {
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.newlast-left img {
+    height: 57px;
+    display: block;
+    margin: auto;
+    margin-bottom: 14px;
+}
+
+.newlast-inner ul {
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.newlast-right ul {
+    float: inherit;
+    text-align: center;
+}
+
+.newlast-right ul li {
+    float: initial;
+    display: inline-block;
+    margin: 0 7px;
+}
+
+
+
+}

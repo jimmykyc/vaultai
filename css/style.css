@@ -1,0 +1,2031 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@font-face {
+    font-family: "GT America";
+    src: url("../fonts/GTAmerica-Bold.woff2") format("woff2"), url("../fonts/GTAmerica-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GT America";
+    src: url("../fonts/GTAmerica-Medium.woff2") format("woff2"), url("../fonts/GTAmerica-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GT America";
+    src: url("../fonts/GTAmerica-Regular.woff2") format("woff2"), url("../fonts/GTAmerica-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    scroll-behavior: initial;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-family: "GT America";
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    text-decoration: none;
+}
+
+.main-wrpper{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1670px;
+}
+
+/* **** Header **** */
+header {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 120;
+    transition: 0.4s linear;
+    padding: 44px 0;
+    -webkit-transition: 0.4s linear;
+}
+header .container {
+    max-width: 1752px;
+}
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+}
+.navbar-brand {
+    float: none;
+    height: auto;
+    padding: 0;
+}
+.navbar {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    z-index: 120;
+    transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    padding: 20px 40px;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+}
+.navbar-light .navbar-nav {
+    margin-left: auto;
+}
+.navbar-light .navbar-nav li {
+    margin-right: 68px;
+}
+.navbar-light .navbar-nav li:last-child {
+    margin-right: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 15px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #000;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link.launch-btn {
+    background: #8c8c8c;
+    border-radius: 30px;
+    color: #fff;
+    padding: 15px 25px;
+    background: linear-gradient(#838383 0%, #2d2d2d 100%);
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link.launch-btn span {
+    position: relative;
+    z-index: 9;
+}
+.navbar-light .navbar-nav .nav-link.launch-btn:before {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    content: "";
+    height: 100%;
+    width: 0;
+    top: 0;
+    bottom: 0;
+    background: #000;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link.launch-btn:hover:before {
+    border-radius: 40px;
+    background: #000;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.navbar .navbar-nav li .nav-link.active {
+    color: #626262;
+}
+
+.navbar .navbar-nav>li>a:focus,
+.navbar .navbar-nav>li>a:hover,
+.navbar .navbar-nav>li>a:hover {
+    color: #626262;
+}
+.navbar .navbar-nav>.active>a,
+.navbar .navbar-nav>.active>a:focus,
+.navbar .navbar-nav>.active>a:hover {
+    color: #626262;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #626262;
+}
+.navbar .navbar-nav>li>a.launch-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* **** toggler **** */
+.navbar-light .navbar-toggler {background-color: #626262;border-radius: 0;outline: none;box-shadow: none;border: none;height: 40px;width: 50px;padding: 0 0 7px;}
+.navbar-light .navbar-toggler:focus {box-shadow: none;outline: none;}
+.navbar-light .navbar-toggler .navbar-toggler-icon {background-image: unset;}
+.navbar-toggler:active,
+.navbar-toggler:focus {outline: none;}
+.navbar-light .navbar-toggler-icon {width: 24px;height: 17px;background-image: none;position: relative;border-bottom: 1px solid #fff;transition: all 300ms linear;}
+.navbar-light .navbar-toggler-icon:after,
+.navbar-light .navbar-toggler-icon:before {width: 24px;position: absolute;height: 1px;background-color: #fff;top: 0;left: 0;content: "";z-index: 2;transition: all 300ms linear;}
+.navbar-light .navbar-toggler-icon:after {top: 8px;}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {transform: rotate(45deg);}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {transform: translateY(8px) rotate(-45deg);}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {border-color: transparent;}
+/* **** End toggler **** */
+
+
+/*header.nav-new {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}*/
+/* **** End Header **** */
+
+/* **** Button **** */
+.btn-main {
+    border-radius: 50px;
+    background: linear-gradient(#696969 0%, #242424 100%);
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    text-align: center;
+    color: #fff;
+    padding: 15px 25px;
+    display: table;
+    position: relative;
+}
+.btn-main span {
+    position: relative;
+    z-index: 9;
+}
+.btn-main:before {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    content: "";
+    height: 100%;
+    width: 0;
+    top: 0;
+    bottom: 0;
+    background: #000;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.btn-main:hover:before {
+    border-radius: 40px;
+    background: #000;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.btn-main:hover {
+    color: #fff;
+}
+
+.btn-main1 {
+    border-radius: 50px;
+    border: 1px solid #626262;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    text-align: center;
+    color: #626262;
+    padding: 15px 25px;
+    display: table;
+    position: relative;
+}
+.btn-main1 span {
+    position: relative;
+    z-index: 9;
+}
+.btn-main1:before {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    content: "";
+    height: 100%;
+    width: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(#626262 0%, #272727 100%);
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.btn-main1:hover:before {
+    border-radius: 40px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.btn-main1:hover {
+    color: #fff;
+}
+/* **** End Button **** */
+
+/* **** HEro **** */
+.hero-wrp {
+    padding: 200px 0 80px;
+    position: relative;
+}
+.hero-wrp .container {
+    max-width: 1752px;
+}
+.hero-wrp .row{
+    display: flex;
+    align-items: center;
+}
+.hero-wrp .hero-link-box {
+    position: relative;
+    display: table;
+    margin: 0 0 50px;
+}
+.hero-wrp .hero-link-box span.info-logo {
+    border-radius: 40px;
+    background: linear-gradient(#5b5b5b 0%, #282828 100%);
+    box-shadow: 0px 0px 1px 1px #0000001a;
+    display: table;
+    padding: 10px 27px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*-webkit-animation: up-down 0.20s infinite alternate;
+    animation: up-down 0.20s infinite alternate;*/
+}
+.hero-wrp .hero-link-box span.info-logo img{position: relative;z-index: 5;}
+.hero-wrp .hero-link-box span.info-logo img {
+    max-width: 100%;
+    margin: 0;
+}
+.pulse {
+  animation: pulse-animation 1s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgb(123, 123, 123);
+  }
+  100% {
+    box-shadow: 0 0 0 40px rgba(130, 74, 175, 0);
+  }
+}
+.hero-wrp .hero-link-box span#text {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    border-radius: 50px;
+    background: linear-gradient(rgba(130, 74, 175, 0.1) 0%, rgba(65, 37, 88, 0.1) 100%);
+    text-align: left;
+    color: #000;
+    padding: 11px 70px 11px 280px;
+    display: table;
+    text-align: left;
+}
+.hero-wrp .hero-link-box button {
+    background: transparent;
+    right: 20px;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    display: table;
+    box-shadow: none;
+    outline: none;
+    border-radius: 0;
+    border: none;
+    position: absolute;
+    opacity: 0.5;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.hero-wrp .hero-link-box button img {
+    max-width: 100%;
+}
+.hero-wrp .hero-link-box button:hover{
+    opacity: 1;
+}
+.hero-wrp .hero-img img {
+    max-width: 100%;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(40px); }
+}
+
+
+
+
+.hero-wrp h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 80px;
+    text-align: left;
+    color: #000;
+    margin: 0 0 20px;
+}
+.hero-wrp h2 span{position: relative;}
+.hero-wrp h2 span:before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/single-line-animations_animated.svg);
+}
+.hero-wrp h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: left;
+    color: #000;
+    margin: 0 0 40px;
+}
+.hero-wrp .button-box {
+    display: flex;
+    align-items: center;
+}
+.hero-wrp .button-box li {
+    margin-right: 15px;
+}
+.hero-wrp .button-box li:last-child {
+    margin: 0;
+}
+.hero-wrp .button-box a {
+    min-width: 250px;
+    width: 250px;
+    text-align: center;
+}
+.hero-wrp .social-icons {
+    margin: 0 0 25px;
+}
+.hero-wrp .social-icons ul {
+    display: flex;
+    align-items: center;
+}
+.hero-wrp .social-icons ul li {
+    margin-right: 12px;
+}
+.hero-wrp .social-icons ul li:last-child {
+    margin: 0;
+}
+.hero-wrp .social-icons ul li a {
+    display: block;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.hero-wrp .social-icons ul li a img {
+    max-width: 100%;
+}
+.hero-wrp .social-icons ul li a:hover{
+    -webkit-transform: translate(0, -10px);
+    transform: translate(0, -10px);
+}
+/* **** End HEro **** */
+
+/* *** Protocol **** */
+.protocol-wrpper {
+    padding: 0 0 80px;
+    position: relative;
+}
+.protocol-wrpper .protocol-block {
+    border-radius: 38px;
+    background: rgba(153, 0, 118, 0.1);
+    padding: 85px 120px 15px;
+    overflow: hidden;
+}
+.protocol-wrpper .protocol-title h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 58px;
+    text-align: center;
+    color: #626262;
+    margin: 0 0 18px;
+}
+.protocol-wrpper .protocol-title h6 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    color: #626262;
+    margin: 0 0 70px;
+}
+.protocol-wrpper .protocol-box {
+    margin: -70px 0 70px;
+}
+.protocol-wrpper .protocol-box img {
+    max-width: 100%;
+    margin: 0 auto 30px;
+    width: 130px;
+}
+.protocol-wrpper .protocol-box h3 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #626262;
+    margin: 0 0 20px;
+}
+.protocol-wrpper .protocol-box p {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    color: #626262;
+    opacity: 0.7;
+    margin: 0;
+}
+/* *** End Protocol **** */
+
+/* **** earn ***** */
+.earn-wrpper {
+    padding: 0 0 80px;
+}
+.earn-wrpper .container {
+    max-width: 1456px;
+}
+.earn-wrpper .earn-block .earn-title h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 58px;
+    text-align: center;
+    color: #000;
+    margin: 0 0 70px;
+}
+.earn-wrpper .earn-block .row {
+    display: flex;
+    align-items: center;
+}
+.earn-wrpper .earn-block .earn-bix {
+    border-radius: 38px;
+    background: #626262;
+    padding: 35px 40px;
+}
+.earn-wrpper .earn-block .earn-bix h3 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 16px;
+}
+.earn-wrpper .earn-block .earn-bix p {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.8;
+    margin: 0;
+}
+.earn-wrpper .earn-block .earn-img img {
+    width: 100%;
+}
+/* **** End earn ***** */
+
+/* **** BUY **** */
+.buy-wrpper {
+    padding: 0 0 80px;
+    position: relative;
+}
+.buy-wrpper .buy-block {
+    border-radius: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 75px 135px;
+}
+.buy-wrpper .buy-block .buy-title h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 58px;
+    text-align: center;
+    color: #000;
+    margin: 0 0 10px;
+}
+.buy-wrpper .buy-block .buy-title h5 {
+    font-family: "GT America";
+    font-weight: normal;
+    font-size: 38px;
+    text-align: center;
+    color: #626262;
+    margin: 0 0 65px;
+}
+.buy-wrpper .buy-block .buy-box {
+    margin: 0 0 75px;
+}
+.buy-wrpper .buy-block .buy-box-last {
+    margin: 0;
+}
+.buy-wrpper .buy-block .buy-box .box-img {
+    width: 114px;
+    height: 114px;
+    border-radius: 8px;
+    /* background: rgba(153, 0, 118, 0.2); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 80px;
+}
+.buy-wrpper .buy-block .buy-box img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.buy-wrpper .buy-block .buy-box h3 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #000;
+    margin: 0;
+}
+/* **** End BUY **** */
+
+/* **** Work **** */
+.work-wrp {
+    position: relative;
+    padding: 0 0 80px;
+}
+.work-wrp .container {
+    max-width: 1270px;
+}
+.work-wrp .work-title h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 58px;
+    text-align: center;
+    color: #000;
+    margin: 0 0 20px;
+}
+
+.work-wrp .work-title h6{
+    display: table;
+    position: relative;
+    margin: 0 auto 100px;
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+}
+.work-wrp .work-title h6:before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 0;
+    height:55px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/single-line-animations_animated.svg);    
+}
+
+.work-wrp .work-title p {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    color: #000;
+    margin: 0 0 15px;
+    position: relative;
+}
+
+.work-wrp .work-title p:before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 0;
+    height: 70px;
+    width: 85%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/single-line-animations_animated.svg);
+}
+
+
+
+.work-wrp .work-block {
+    padding:35px 0;
+}
+.work-wrp .work-block .row {
+    align-items: center;
+}
+.work-wrp .work-block .work-dt h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 69px;
+    line-height: 67px;
+    text-align: left;
+    color: #252849;
+    margin: 0 0 25px;
+}
+.work-wrp .work-block .work-dt h2 span {
+    color: #626262;
+}
+.work-wrp .work-block .work-dt ul li {
+    margin: 0 0 15px;
+    padding-left: 35px;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: left;
+    color: #252849;
+}
+.work-wrp .work-block .work-dt ul li:before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    top: 5px;
+    left: 0;
+    background-image: url(../images/check.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.work-wrp .work-block .work-dt p {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: left;
+    color: #252849;
+    margin: 0;
+}
+.work-wrp .work-block .work-img img {
+    max-width: 100%;
+    margin: 0 0;
+}
+/* **** End Work **** */
+
+/* **** why-choose-wrpper **** */
+.why-choose-wrpper .protocol-block {
+    background: #626262;
+}
+.why-choose-wrpper .protocol-title h2 {
+    color: #fff;
+}
+.why-choose-wrpper .protocol-title h6 {
+    color: #fff;
+}
+.why-choose-wrpper .protocol-box h3 {
+    color: #fff;
+}
+.why-choose-wrpper .protocol-box p {
+    color: #fff;
+    opacity: 1;
+}
+/* **** End why-choose-wrpper **** */
+
+/* **** Tokenomics **** */
+.tokenomics-wrp {
+    /*padding: 50px 0 250px;*/
+    padding: 50px 0 50px;
+}
+.tokenomics-wrp .tokenomics-title h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 58px;
+    text-align: center;
+    color: #000;
+    margin: 0 0 35px;
+}
+
+.tokenomics-block {
+    border-radius: 22px;
+    background: #ede8f1;
+    position: relative;
+    padding: 60px 20px 60px 40px;
+}
+.sp-logo {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.tokenomics-block:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 6px;
+    background: #fff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+.tokenomics-box h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 58px;
+    text-align: center;
+    color: #626262;
+    margin: 0 0 15px;
+}
+.tokenomics-box h4 {
+    font-family: "GT America";
+    font-weight: normal;
+    font-size: 26px;
+    text-align: center;
+    color: #626262;
+    margin: 0 0 55px;
+}
+.tokenomics-box ul li {
+    margin: 0 0 15px;
+    padding-left: 45px;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: left;
+    color: #626262;
+}
+.tokenomics-box ul li:before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    top: 5px;
+    left: 0;
+    opacity: 50%;
+    background-image: url(../images/check.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sell-tokenomics-box {
+    padding-left: 80px;
+}
+/* **** End Tokenomics **** */
+
+/* **** Advantage **** */
+.advantage-wrp {
+    padding: 0 0 80px;
+}
+.advantage-wrp .advantage-title h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100px;
+    text-align: center;
+    color: #000;
+    margin: 0 0 60px;
+}
+
+.advantage-wrp table tbody tr td,
+.advantage-wrp table thead tr th {
+    padding: 0 7px 20px;
+    vertical-align: middle;
+    width: 18%;
+}
+.advantage-wrp table tbody tr td:first-child,
+.advantage-wrp table thead tr th:first-child {
+    width: 28%;
+}
+.advantage-wrp span.haed-title {
+    display: block;
+    font-family: "GT America";
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    padding: 25px 10px;
+    border-radius: 16px;
+    background: #626262;
+}
+.advantage-wrp table tbody tr td span {
+    border-radius: 16px;
+    background: #fff;
+    border: 1px solid rgba(112, 112, 112, 0.4);
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000;
+    display: block;
+    padding: 20px 12px;
+    text-transform: capitalize;
+}
+.advantage-wrp table tbody tr td span.yes {
+    background: rgba(153, 0, 118, 0.2);
+    color: #626262;
+    border-color: rgba(153, 0, 118, 0.2);
+}
+.advantage-wrp table tbody tr td span.no {
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.06);
+    border-color: rgba(0, 0, 0, 0.06);
+}
+/* **** End Advantage **** */
+
+/* **** RoadMap **** */
+.roadmap-wrp {
+    padding: 0 0 60px;
+    position: relative;
+}
+.roadmap-wrp .container {
+    max-width: 1780px;
+    width: 1780px;
+}
+.roadmap-wrp .roadmap-title h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100px;
+    text-align: center;
+    color: #000;
+    margin: 0 0 85px;
+    /*margin: 0 0 160px;*/
+}
+.roadmap-wrp .roadmap-block {
+    display: flex;
+    width: auto;
+    position: relative;
+}
+.roadmap-wrp .roadmap-block:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    background-image: url(../images/roadmap-line.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 192px;
+}
+.roadmap-wrp .roadmap-block .roadmap-col {
+    width: 20%;
+    position: relative;
+    padding-top: 80px;
+    margin: 32px 0 0;
+}
+.roadmap-wrp .roadmap-block .roadmap-col:first-child {
+    margin-top: 70px;
+}
+.roadmap-wrp .roadmap-block .roadmap-col:nth-child(2) {
+    margin-top: 93px;
+}
+.roadmap-wrp .roadmap-block .roadmap-col:nth-child(4) {
+    margin-top: 33px;
+}
+.roadmap-wrp .roadmap-block .roadmap-col:last-child {
+    margin-top: 125px;
+}
+.roadmap-wrp .roadmap-block .roadmap-col .dot {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background: rgba(153, 0, 118, 0.2);
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    /*border: 12px solid rgba(153, 0, 118, 0.2);*/
+}
+.roadmap-wrp .roadmap-block .roadmap-col .dot:before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 27px;
+    width: 27px;
+    border-radius: 100%;
+    background: #626262;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.roadmap-wrp .roadmap-block .roadmap-col h3 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #626262;
+    margin: 0 0 30px;
+}
+.roadmap-wrp .roadmap-block .roadmap-col ul li {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    color: #000;
+    padding: 0 0 18px;
+    margin: 0 0 22px;
+    position: relative;
+}
+.roadmap-wrp .roadmap-block .roadmap-col ul li:before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    width: 102px;
+    height: 2px;
+    background: #626262;
+    opacity: 0.2;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+/* **** End RoadMap **** */
+
+/* **** Faq **** */
+.faq-wrpper {
+    padding: 80px 0 0;
+    background-image: url(../images/faq-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.faq-wrpper .faq-block {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.faq-wrpper .faq-block .faq-title h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 58px;
+    text-align: center;
+    color: #000;
+    margin: 0 0 50px;
+}
+.faq-wrpper .faq-block .accordion {
+    padding: 0 0 70px;
+}
+.faq-wrpper .faq-block .accordion .accordion-item {
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    border-radius: 18px;
+    background: #fff;
+    border: 1px solid #dfe5f4;
+    box-shadow: 6px 6px 24px rgba(0, 0, 0, 0.05);
+    padding: 40px 45px;
+    margin: 0 0 40px;
+}
+.faq-wrpper .faq-block .accordion .accordion-item:last-child {
+    margin: 0;
+}
+.faq-wrpper .faq-block .accordion .accordion-item .accordion-button {
+    font-family: "GT America";
+    font-weight: normal;
+    font-size: 26px;
+    text-align: left;
+    color: #000;
+    background-color: transparent;
+    position: relative;
+    padding: 0;
+}
+.faq-wrpper .faq-block .accordion .accordion-item .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+    color: unset;
+}
+.faq-wrpper .faq-block .accordion .accordion-item .accordion-button:focus {
+    box-shadow: none;
+}
+.faq-wrpper .faq-block .accordion .accordion-item .accordion-button::after {
+    display: none;
+}
+.faq-wrpper .faq-block .accordion .accordion-body {
+    padding: 18px 0 0;
+}
+.faq-wrpper .faq-block .accordion .accordion-body p {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+    color: #a3a3a3;
+    margin: 0 0 15px;
+}
+.faq-wrpper .faq-block .accordion .accordion-body p:last-child{
+    margin: 0;
+}
+.accordion .accordion-item .accordion-button:before {
+    position: absolute;
+    content: "\f068";
+    font-family: "Font Awesome 5 Pro";
+    right: 0;
+    top: 50%;
+    font-size: 20px;
+    width: 39px;
+    height: 39px;
+    border-radius: 19.5px;
+    background: #fff;
+    border: 1px solid #252849;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.accordion .accordion-item .accordion-button.collapsed:before {
+    content: "\f067";
+    font-family: "Font Awesome 5 Pro";
+}
+
+.faq-wrpper .faq-block .accordion .accordion-item .accordion-button:not(.collapsed) {
+    color: #626262;
+}
+.faq-wrpper .faq-block .accordion .accordion-item .accordion-button:not(.collapsed):before {
+    border-color: #626262;
+    color: #626262;
+}
+.faq-wrpper .faq-info h3 {
+    font-family: "GT America";
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 68px;
+    text-align: center;
+    color: #000;
+    margin: 0 0 25px;
+}
+.faq-wrpper .faq-info p {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+    margin: 0;
+}
+.faq-wrpper .faq-info p a {
+    color: #626262;
+}
+.faq-wrpper .faq-info p a:hover {
+    text-decoration: underline;
+}
+/* **** End Faq **** */
+
+/* **** partnership **** */
+.partnership-wrp {
+    padding: 80px 0;
+}
+.partnership-wrp .partnership-block {
+    border-radius: 38px;
+    background: rgba(0, 0, 0, 0.04);
+    padding: 90px 150px;
+}
+.partnership-wrp h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100px;
+    text-align: center;
+    color: #000;
+    margin: 0 0 60px;
+}
+.partnership-wrp .partnership-block ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.partnership-wrp .partnership-block ul li {
+    display: inline-block;
+    margin: 0 80px 75px 0;
+}
+.partnership-wrp .partnership-block ul li:nth-child(8),
+.partnership-wrp .partnership-block ul li:last-child {
+    margin: 0 80px 0 0;
+}
+.partnership-wrp .partnership-block ul li a {
+    display: block;
+}
+.partnership-wrp .partnership-block ul li a img {
+    max-width: 100%;
+}
+/* **** End partnership **** */
+
+/* **** Contact **** */
+.contact-wrpper {
+    padding: 0 0 100px;
+}
+.contact-wrpper .contact-block {
+    border-radius: 18px;
+    background: #626262;
+    padding: 65px 112px;
+    position: relative;
+}
+.contact-wrpper .contact-block:before{
+    position: absolute;
+    content: "";
+    background-image: url(../images/intersection.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 40%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.contact-wrpper .contact-block .cnt-form {
+    width: 50%;
+}
+.contact-wrpper .contact-block .cnt-form h2 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 58px;
+    text-align: left;
+    color: #fff;
+    margin: 0 0 10px;
+}
+.contact-wrpper .contact-block .cnt-form h4 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 28px;
+    text-align: left;
+    color: #fff;
+    margin: 0 0 25px;
+}
+.contact-wrpper .contact-block .form-group {
+    margin: 0 0 20px;
+}
+.contact-wrpper .contact-block .form-group .form-control {
+    border-radius: 29px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: none;
+    outline: none;
+    height: auto;
+    font-family: "GT America";
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 12px 24px;
+    resize: none;
+}
+.contact-wrpper .contact-block .form-group textarea.form-control {
+    height: 130px;
+}
+.contact-wrpper .contact-block .form-group .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+.contact-wrpper .contact-block button {
+    font-family: "GT America";
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    color: #626262;
+    border-radius: 50px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background: #fff;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.contact-wrpper .contact-block button:hover {
+    background: #000;
+    color: #fff;
+}
+/* **** End Contact **** */
+
+/* **** Footer **** */
+footer {
+    background: #1a1a1a;
+    padding: 80px 0 40px;
+}
+footer h3 {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 32px;
+    text-align: left;
+    color: #fff;
+    margin: 0 0 45px;
+}
+footer .contact-info li {
+    margin: 0 0 35px;
+}
+footer .contact-info li:last-child {
+    margin: 0;
+}
+footer .contact-info a {
+    font-family: "GT America";
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+}
+footer .contact-info a span {
+    width:40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 100%;
+    font-size: 16px;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+footer .contact-info a:hover {
+    color: #fff;
+}
+
+footer .quicklinks li {
+    margin: 0 0 20px;
+}
+footer .quicklinks li:last-child {
+    margin: 0;
+}
+footer .quicklinks a {
+    font-family: "GT America";
+    font-weight: normal;
+    font-size:22px;
+    text-align: left;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.6);
+}
+footer .quicklinks a:hover {
+    color: #fff;
+}
+
+footer .newsletter-info .form-group {
+    display: flex;
+    align-items: center;
+}
+footer .newsletter-info .form-group .form-control {
+    border-radius: 29px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: none;
+    outline: none;
+    height: auto;
+    font-family: "GT America";
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 12px 24px 18px;
+    resize: none;
+}
+footer .newsletter-info .form-group textarea.form-control {
+    height: 130px;
+}
+footer .newsletter-info .form-group .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .newsletter-info .form-group button {
+    width: 61px;
+    height: 61px;
+    min-width: 61px;
+    background: #fff;
+    border-radius: 100%;
+    font-size: 30px;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    margin-left: 10px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+footer .newsletter-info .form-group button:hover {
+    background: #626262;
+    color: #fff;
+}
+
+footer .copyright {
+    padding: 80px 0 0;
+}
+footer .copyright p {
+    margin: 0;
+    font-family: "GT America";
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+    color: #fff;
+    opacity: 0.6;
+}
+footer .copyright a.logo-img {
+    display: table;
+    margin: 0 auto;
+}
+footer .copyright ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+footer .copyright ul li {
+    margin-right: 40px;
+}
+footer .copyright ul li:last-child {
+    margin: 0;
+}
+footer .copyright ul li span,
+footer .copyright ul li a {
+    font-family: "GT America";
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+    color: #fff;
+    opacity: 0.6;
+}
+footer .copyright ul li a:hover {
+    color: #fff;
+    opacity: 1;
+}
+/* **** End Footer **** */
+
+
+.one{order: 1;}
+.two{order: 2;}
+
+
+.roadmap-wrp .roadmap-block .roadmap-col ul li{
+    display: table;
+    margin: 0 auto 22px;
+}
+.check-icon{
+    position: relative;
+    display: table;
+    margin: 0 auto;
+}
+.check-icon:after{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    top: 5px;
+    left: -30px;
+    background-image: url(../images/check2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a.down-arrow{
+    margin: 40px auto 0;
+    display: table;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background: linear-gradient(#5d5d5d 0%, #242424 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+a.link-ibm{
+    margin: 40px auto 0;
+    display: table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-wrp{
+    position: relative;
+}
+.shap1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 100%;
+    z-index: -1;
+}
+.shap2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    z-index: -1;
+}
+.earn-wrpper{
+    position: relative;
+}
+.shap3{
+    position: absolute;
+    right: 0;
+    top: 20%;
+    max-width: 100%;
+    z-index: -1;
+}
+.shap4{
+    position: absolute;
+    left: 0;
+    top: 120%;
+    max-width: 100%;
+    z-index: -1;
+}
+
+.tokenomics-wrp{
+    position: relative;
+}
+.tokenomics-wrp .shap3{
+    max-width: 50%;
+    top: -25%;
+}
+.tokenomics-wrp .shap4{
+    max-width: 50%;
+    top: auto;
+    bottom: -25%;
+}
+
+
+
+
+.headeline-text {
+    position: relative;
+    display: table;
+    width: 100%;
+    min-height: 75px;
+    margin: 0 0 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.headeline-text h3{
+    margin: 0;
+}
+span.headeline-text svg{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+   
+    stroke-width: 9;
+    fill: none;
+    opacity: 0;
+    stroke-dasharray: 1500 1500;
+    stroke: #626262;
+}
+span.headeline-text1.e-hide-highlight svg{
+    opacity: 1;
+}  
+span.headeline-text2.e-hide-highlight svg{
+    opacity: 1;
+} 
+span.headeline-text3.e-hide-highlight svg{
+    opacity: 1;
+} 
+span.headeline-text4.e-hide-highlight svg{
+    opacity: 1;
+}   
+.protocol-wrpper.why-choose-wrpper .protocol-box span.headeline-text svg{
+    stroke: #fff;
+}
+span.headeline-text.e-hide-highlight svg path {
+    -webkit-animation: elementor-headline-dash forwards;
+    animation: elementor-headline-dash forwards;
+    -webkit-animation-duration: var(--animation-duration,6.4s);
+    animation-duration: var(--animation-duration,6.4s);
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+.earn-bix span.headeline-text svg{
+    stroke: #fff;
+}
+
+@-webkit-keyframes elementor-headline-dash {
+    0% {
+        stroke-dasharray: 0 1500;
+        opacity: 1;
+    }
+    to {
+        stroke-dasharray: 5000 5000;
+        opacity: 1;
+    }
+}
+@keyframes elementor-headline-dash {
+    0% {
+        stroke-dasharray: 0 5000;
+        opacity: 1;
+    }
+    to {
+        stroke-dasharray: 5000 5000;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes hide-highlight {
+    0% {
+        opacity: 1;
+        stroke-dasharray: 5000 5000;
+    }
+    to {
+        opacity: 0;
+        -webkit-filter: blur(10px);
+        filter: blur(10px);
+    }
+}
+@keyframes hide-highlight {
+    0% {
+        opacity: 1;
+        stroke-dasharray: 5000 5000;
+    }
+    to {
+        opacity: 0;
+        -webkit-filter: blur(10px);
+        filter: blur(10px);
+    }
+}
+.protocol-wrpper .protocol-box h3{
+    margin: 0;
+}
+
+.earn-bix .headeline-text{
+    padding: 15px;
+}
+.earn-bix .headeline-text:before{
+    filter: brightness(0) invert(1);
+    width: 100%;
+}
+.earn-wrpper .earn-block .earn-bix h3{
+    margin: 0;
+}
+.buy-wrpper .buy-block .buy-box .headeline-text{
+    padding: 20px;
+}
+.buy-wrpper .buy-block .buy-box .headeline-text:before{
+    width: 100%;
+}
+.why-choose-wrpper .protocol-box .headeline-text{
+    padding: 15px;
+}
+.why-choose-wrpper .protocol-box .headeline-text:before{
+    filter: brightness(0) invert(1);
+    width: 80%;
+}
+.why-choose-wrpper .protocol-box h3{
+    margin: 0;
+}
+
+
+.protocol-wrpper .protocol-title h6{
+    display: table;
+    position: relative;
+    margin: 0 auto 100px;
+}
+.protocol-wrpper .protocol-title h6:before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 0;
+    height:55px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.protocol-wrpper.why-choose-wrpper .protocol-title h6:before{
+    filter: brightness(0) invert(1);
+}
+
+.buy-wrpper .buy-block .buy-title h5{
+    display: table;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto 100px;
+}
+.buy-wrpper .buy-block .buy-title h5:before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 0;
+    height:70px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+.why-choose-wrpper .protocol-box p span{
+    position: relative;
+    display: inline-block;
+    filter: brightness(0) invert(1);
+}
+.why-choose-wrpper .protocol-box p span:before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 0;
+    height:40px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+
+.all-btn{
+    margin: 30px auto;
+    display: table;
+    padding: 15px 35px;
+    -webkit-animation: up-down 0.6s infinite  alternate;
+    animation: up-down 0.6s infinite  alternate;
+}
+@keyframes up-down {
+    0% { transform: scale(0.9); }
+    100% { transform: scale(1); }
+}
+
+
+.membership-wrp{
+    padding:40px 0 80px;
+    position: relative;
+    width: 100%;
+}
+.membership-wrp h2{
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100px;
+    text-align: center;
+    color: #000;
+}
+
+
+.membership-wrp p {
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    color: #000;
+    /* margin: 0 0 15px; */
+    margin: 0 0 85px;
+    position: relative;
+}
+
+.membership-wrp p:before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 0;
+    height: 70px;
+    width: 40%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/single-line-animations_animated.svg);
+}
+
+
+.membership-plans table{
+    margin: 0;
+}
+.membership-plans table thead th{
+    width: 25%;
+    padding: 10px 10px;
+}
+.membership-plans table thead th span.haed-title{
+    padding: 18px 10px;
+    border-radius: 15px;
+    font-size: 24px;
+    color: #fff;
+    background: #626262;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.membership-plans table tbody td{
+    padding: 10px 10px;
+    vertical-align: middle;
+    border-radius: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000;
+}
+.membership-plans table tbody td span {
+    border-radius: 16px;
+    background: #fff;
+    border: 1px solid rgba(112, 112, 112, 0.4);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 15px;
+    min-height: 80px;
+}
+.membership-plans table tbody td span.yes {
+    background: rgba(153, 0, 118, 0.2);
+    color: #626262;
+    border-color: rgba(153, 0, 118, 0.2);
+}
+.membership-plans table tbody td span.no {
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.06);
+    border-color: rgba(0, 0, 0, 0.06);
+}
+.membership-plans table tbody td:first-child{
+    text-align: left;
+}
+.socialbx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socialbx i{
+    background: rgba(153, 0, 118, 0.2);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    color:rgba(153, 0, 118, 1);
+    font-size: 20px;
+    margin-right: 10px;
+    transition: .4s linear;
+    -webkit-transition: .4s linear;
+}
+.socialbx a:last-child i{
+    margin: 0;
+}
+.socialbx i:hover{
+    background: rgba(153, 0, 118,1);
+    color: #fff;
+}
+.membership-plans table tbody td a.btn-join{
+    padding: 15px 30px;
+    background: rgba(153, 0, 118,1);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    width: 60%;
+    display:block;
+    border-radius: 30px;
+}
+.membership-plans table tbody td a.btn-join:hover{
+    background: #000;
+    color: #fff;
+}
+
+
+/* **** New Css  **** */
+
+.hero-wrp .hero-img{
+    position: relative;  
+}
+/* .image-round{
+    width: 613px;
+    height: 611px;
+    background: linear-gradient(rgba(130, 74, 175, 0.1) 0%, rgba(65, 37, 88, 0.1) 100%);
+    border-radius: 100%;
+    margin: 0 auto;
+    position: relative;
+} */
+.hero-wrp .hero-img img {
+    max-width: 100%;   
+    animation: unset;
+}
+.hero-wrp .main-img{
+    /* position: absolute;
+    left: 20%;
+    top: 15%; */
+    position: absolute;
+    left: 0;
+    top: -280px;
+}
+.hero-wrp .ball1{
+    width: 29px;
+    height: 29px;
+    background: linear-gradient(#626262 0%, #222222 100%);
+    border-radius: 100%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+.hero-wrp .ball2{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(#626262 0%, #2c2c2c 100%);
+    border-radius: 100%;
+    position: absolute;
+    right: 0%;
+    top: 20%;
+}
+.hero-wrp .ball3{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(#626262 0%, #272727 100%);
+    border-radius: 100%;
+    position: absolute;
+    left: 18%;
+    bottom: 0;
+}
+.hero-wrp .ball4{
+    width: 17px;
+    height: 17px;
+    background: linear-gradient(#626262 0%, #212121 100%);
+    border-radius: 100%;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+}
+/* .image-round:before{
+    position: absolute;
+    content: "";
+    height: 75%;
+    width: 75%;
+    border-radius: 100%;
+    background: linear-gradient(#824aaf 0%, #412558 100%);
+    opacity: 0.2;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+} */
+/* 
+.work-block.investors-intelligence .work-dt ul li{
+    font-size: 18px;
+    line-height: 26px;
+} */
+
+.work-wrp .work-block.investors-intelligence .work-dt ul li:before {
+    height: 20px;
+    width: 20px;
+    top: 7px;
+}
+
+/* **** End New Css  **** */
+.work-wrp .work-img img {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.work-wrp.investors-intelligence .container{
+    max-width: 1700px;
+}
+
+.img-nft {
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.div-logo-one {
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-logo-one a{
+    margin: 40px 0 0 0;
+}

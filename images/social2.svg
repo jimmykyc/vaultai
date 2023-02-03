@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="37" viewBox="0 0 37 37">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.392" x2="0.837" y2="1.17" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#990076"/>
+      <stop offset="1" stop-color="#4d003b"/>
+    </linearGradient>
+  </defs>
+  <g id="social2" transform="translate(0.106 -0.173)">
+    <rect id="Retângulo_16" data-name="Retângulo 16" width="37" height="37" rx="18.5" transform="translate(-0.106 0.173)" fill="url(#linear-gradient)"/>
+    <g id="Grupo_2916" data-name="Grupo 2916" transform="translate(9.768 11.385)">
+      <path id="Caminho_1908" data-name="Caminho 1908" d="M18.5,49.778a7.908,7.908,0,0,1-2.188.6,3.771,3.771,0,0,0,1.669-2.1,7.584,7.584,0,0,1-2.407.918,3.792,3.792,0,0,0-6.563,2.594,3.906,3.906,0,0,0,.088.865A10.736,10.736,0,0,1,1.286,48.69a3.792,3.792,0,0,0,1.167,5.07,3.746,3.746,0,0,1-1.714-.468v.042a3.81,3.81,0,0,0,3.038,3.727,3.785,3.785,0,0,1-.994.125,3.354,3.354,0,0,1-.719-.065,3.829,3.829,0,0,0,3.544,2.642,7.622,7.622,0,0,1-4.7,1.617A7.106,7.106,0,0,1,0,61.329a10.679,10.679,0,0,0,5.819,1.7A10.72,10.72,0,0,0,16.611,52.238c0-.168-.006-.33-.014-.49a7.567,7.567,0,0,0,1.9-1.969Z" transform="translate(0 -47.995)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
